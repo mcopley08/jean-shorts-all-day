@@ -6,8 +6,6 @@ $requested_url = "http://www.ratemyprofessors.com/search.jsp?queryoption=HEADER&
 $rate_my_professor = file_get_contents($requested_url);
 echo $rate_my_professor;
 
-echo $_GET['schoolName'];
-echo $_GET['firstName'];
-echo $_GET['lastName'];
-echo "hey everybody";
+echo $requested_url;
+echo "\nhey everybody";
 ?>
